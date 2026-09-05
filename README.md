@@ -25,7 +25,7 @@ This breakdown outlines the granular topics, technologies, and structural milest
 
 ### 🌐 Module 1: Frontend Core Architecture
 
-#### 1. HTML5 Deep Dive (Structure)
+#### 1. HTML5 Deep Dive (Structure) 📁 [Section 1 Folder](./section-01-Introduction-to-web-development) | 📁 [Section 2 Folder](./section-02-HTML-basics)
 *   **Document Anatomy:** Working with modern browser rendering standards, document types (`<!DOCTYPE html>`), and basic document wrappers (`<html>`, `<head>`, `<body>`).
 *   **Semantic Layout Elements:** Organizing page structures professionally using native layout boundaries like `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, and `<footer>`.
 *   **Text & Data Formats:** Organizing written copy dynamically utilizing ordered/unordered nested lists (`<ul>`, `<ol>`, `<li>`), clear tables (`<table>`, `<tr>`, `<td>`, `<th>`), block text layouts, and character entities.
