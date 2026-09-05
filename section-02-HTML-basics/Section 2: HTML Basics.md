@@ -13,7 +13,7 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **5. Introduction to HTML** 📁
 
-- [ ] **6. Headings and Paragraphs** 📁
+- [x] **6. Headings and Paragraphs** 📁
 
 - [ ] **7. Formatting Text: Bold, Italics, Underline, etc.** 📁
 
@@ -28,3 +28,15 @@ This folder documents my progress, core concepts, and coding practice exercises 
 - [ ] **12. Tables in HTML** 📁
 
 - [ ] **13. HTML Forms: Inputs, Labels, and Buttons** 📁
+
+---
+
+## 📅 Daily Progress Log
+
+*   **Day 01** 🚀 
+    *   **Completed:** Course onboarding and *Section 1: Introduction to Web Development*.
+    *   **Achieved:** Mastered core internet infrastructure concepts and configured local workspace configurations.
+    *   **Code Practice:** Initiated *Section 2* — Finished *Lec 5 (Intro to HTML)* and *Lec 6 (Headings & Paragraphs)* folder blocks.
+
+*   **Day [Counting...]** ⏳ 
+    *   **Next Milestone:** *Lec 7: Formatting Text (Bold, Italics, Underline, etc.)*
