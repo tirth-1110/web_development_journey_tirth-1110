@@ -4,7 +4,7 @@
 The `<a>` (anchor) tag — linking to an external site and jumping to a specific spot within the same page.
 
 ## 📁 File
-[`Links.html`](./09_links_and_anchor_tags/links.html)
+[`Links.html`](./links.html)
 
 ## 🏗️ Structure
 -  `<!DOCTYPE html>` and `<html lang="en">` — standard document declaration and language attribute
