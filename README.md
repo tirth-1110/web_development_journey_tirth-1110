@@ -58,7 +58,7 @@ Lecture-level topics will be added here once I actually reach each section — n
 
 | # | Section | Lectures | Status |
 |---|---|---|---|
-| 3 | Advanced HTML | 8 | ⏳ In progress |
+| 3 | Advanced HTML | 8 | ⬜ Not started |
 | 4 | Project 1 — Distraction Free YouTube | 4 | ⬜ Not started |
 | 5 | Introduction to CSS | 10 | ⬜ Not started |
 | 6 | Advanced CSS | 6 | ⬜ Not started |
