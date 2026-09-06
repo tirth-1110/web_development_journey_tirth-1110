@@ -4,7 +4,7 @@
 Demonstrates all six HTML heading levels and how the `<br>` tag forces a line break inside a paragraph.
 
 ## 📁 File
-`headings_and_paragraphs.html`
+[`headings_and_paragraphs.html`](./headings_and_paragraphs.html)
 
 ## 🏗️ Structure
 -  `<!DOCTYPE html>` and `<html lang="en">` — standard document declaration and language attribute
