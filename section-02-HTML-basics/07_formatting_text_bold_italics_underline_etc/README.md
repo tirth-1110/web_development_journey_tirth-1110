@@ -4,7 +4,7 @@
 Inline text-formatting tags — bold, italic, underline, strikethrough, subscript, superscript — and how they can be nested/combined.
 
 ## 📁 File
-`bold_italics_underline.html`
+[`bold_italics_underline.html`](./bold_italics_underline.html)
 
 ## 🏗️ Structure
 -  `<!DOCTYPE html>` and `<html lang="en">` — standard document declaration and language attribute
