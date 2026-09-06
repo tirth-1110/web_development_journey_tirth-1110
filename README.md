@@ -27,28 +27,28 @@ Official curriculum for **CodeWithHarry's Ultimate Web Development Course** — 
 
 ### ✅ Section 1: Introduction to Web Development (4 lectures)
 
-1. [Introduction to Web Development](./section-01-Introduction-to-web-development/01_introduction_to_web_development.html)
-2. [Installing VS Code & Setting Up Our Environment](./section-01-Introduction-to-web-development/02_installing_vscode_and_setting_up_environment.html)
-3. [History Of Web Development](./section-01-Introduction-to-web-development/03_history_of_web_development.html)
-4. [How Websites Work](./section-01-Introduction-to-web-development/04_how_websites_work.html)
+1. [Introduction to Web Development](./section-01-introduction-to-web-development/01_introduction_to_web_development.html)
+2. [Installing VS Code & Setting Up Our Environment](./section-01-introduction-to-web-development/02_installing_vscode_and_setting_up_environment.html)
+3. [History Of Web Development](./section-01-introduction-to-web-development/03_history_of_web_development.html)
+4. [How Websites Work](./section-01-introduction-to-web-development/04_how_websites_work.html)
 
-📁 [Section Folder](./section-01-Introduction-to-web-development)
+📁 [Section Folder](./section-01-introduction-to-web-development)
 
 ---
 
 ### ✅ Section 2: HTML Basics (9 lectures)
 
-5. [Introduction to HTML](./section-02-HTML-basics/05_introduction_to_html)
-6. [Headings and Paragraphs](./section-02-HTML-basics/06_headings_and_paragraphs)
-7. [Formatting Text: Bold, Italics, Underline, etc.](./section-02-HTML-basics/07_formatting_text_bold_italics_underline_etc)
-8. [HTML Comments and Whitespaces](./section-02-HTML-basics/08_html_comments_and_whitespaces)
-9. [Links and Anchor Tags](./section-02-HTML-basics/09_links_and_anchor_tags)
-10. [Images in HTML](./section-02-HTML-basics/10_images_in_html)
-11. [Lists: Ordered and Unordered](./section-02-HTML-basics/11_lists_ordered_and_unordered)
-12. [Tables in HTML](./section-02-HTML-basics/12_tables_in_html)
-13. [HTML Forms: Inputs, Labels, and Buttons](./section-02-HTML-basics/13_html_forms_inputs_labels_buttons)
+5. [Introduction to HTML](./section-02-html-basics/05_introduction_to_html)
+6. [Headings and Paragraphs](./section-02-html-basics/06_headings_and_paragraphs)
+7. [Formatting Text: Bold, Italics, Underline, etc.](./section-02-html-basics/07_formatting_text_bold_italics_underline_etc)
+8. [HTML Comments and Whitespaces](./section-02-html-basics/08_html_comments_and_whitespaces)
+9. [Links and Anchor Tags](./section-02-html-basics/09_links_and_anchor_tags)
+10. [Images in HTML](./section-02-html-basics/10_images_in_html)
+11. [Lists: Ordered and Unordered](./section-02-html-basics/11_lists_ordered_and_unordered)
+12. [Tables in HTML](./section-02-html-basics/12_tables_in_html)
+13. [HTML Forms: Inputs, Labels, and Buttons](./section-02-html-basics/13_html_forms_inputs_labels_buttons)
 
-📁 [Section Folder](./section-02-HTML-basics)
+📁 [Section Folder](./section-02-html-basics)
 
 ---
 

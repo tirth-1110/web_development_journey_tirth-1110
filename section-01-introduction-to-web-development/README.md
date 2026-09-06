@@ -11,13 +11,13 @@ This folder documents my initial progress, foundational concepts, and environmen
 
 ## 🗺️ Module Checklist (To-Do List)
 
-- [x] **1. Introduction to Web Development** 📁
+- [x] **1. Introduction to Web Development** [📁](./01_introduction_to_web_development.html)
 
-- [x] **2. Installing VS Code & Setting Up Our Environment** 📁
+- [x] **2. Installing VS Code & Setting Up Our Environment** [📁](./02_installing_vscode_and_setting_up_environment.html)
 
-- [x] **3. History Of Web Development** 📁
+- [x] **3. History Of Web Development** [📁](./03_history_of_web_development.html)
 
-- [x] **4. How Websites Work** 📁
+- [x] **4. How Websites Work** [📁](./04_how_websites_work.html)
 
 ---
 
