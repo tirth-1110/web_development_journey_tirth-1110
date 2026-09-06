@@ -4,7 +4,7 @@
 A minimal first HTML file introducing the language itself — no tags beyond the bare essentials.
 
 ## 📁 File
-`introduction.html`
+[`introduction.html`](./introduction.html)
 
 ## 🏗️ Structure
 -  `<!DOCTYPE html>` and `<html lang="en">` — standard document declaration and language attribute
