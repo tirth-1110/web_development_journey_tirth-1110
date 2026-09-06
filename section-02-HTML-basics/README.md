@@ -11,15 +11,15 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 ## 🗺️ Module Checklist (To-Do List)
 
-- [x] **5. Introduction to HTML** 📁
+- [x] **5. Introduction to HTML** [📁](./05_introduction_to_html)
 
-- [x] **6. Headings and Paragraphs** 📁
+- [x] **6. Headings and Paragraphs** [📁](./06_headings_and_paragraphs)
 
-- [ ] **7. Formatting Text: Bold, Italics, Underline, etc.** 📁
+- [x] **7. Formatting Text: Bold, Italics, Underline, etc.** [📁](./07_formatting_text_bold_italics_underline_etc)
 
-- [ ] **8. HTML Comments and Whitespace** 📁
+- [x] **8. HTML Comments and Whitespace** [📁](./08_html_comments_and_whitespaces)
 
-- [ ] **9. Links and Anchor Tags** 📁
+- [x] **9. Links and Anchor Tags** [📁](./09_links_and_anchor_tags)
 
 - [ ] **10. Images in HTML** 📁
 
