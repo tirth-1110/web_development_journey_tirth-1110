@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <p>Forms are used to collect user input. They consist of various input elements such as text fields, checkboxes,
+        radio buttons, submit buttons, password, etc.</p>
+    <p>&lt;form&gt; tag is used to create an HTML form.</p>
+    <h2>Different types of input types:</h2>
+    <ul type="circle">
+        <li>text</li>
+        <li>password</li>
+        <li>email</li>
+        <li>number</li>
+        <li>checkbox</li>
+        <li>radio</li>
+        <li>submit</li>
+        <li>reset</li>
+        <li>button</li>
+    </ul>
+    <p>Placeholder text attribute is used to provide a hint or example of the expected input.</p>
+    <h1>Registration Form</h1>
+    <form action="/submit_form">
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+        <label for="phone">Phone No. :</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+        <label for="pass">Password :</label>
+        <input type="password" id="pass" name="password" placeholder="Enter your password"><br><br>
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+        <label for="gender">Gender :</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <input type="button" value="Reset Data" onclick="alert('Reset data?')">
+    </form>
+</body>
+
+</html>
