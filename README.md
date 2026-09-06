@@ -19,67 +19,70 @@ Building and keeping this repository updated helps me in three major ways:
 
 ---
 
-## 📚 Detailed Course Syllabus Overview
+## 📚 Course Syllabus & Progress
 
-This breakdown outlines the granular topics, technologies, and structural milestones included in the course syllabus that I am implementing throughout this repository:
-
-### 🌐 Module 1: Frontend Core Architecture
-
-#### 1. HTML5 Deep Dive (Structure) 📁 [Section 1 Folder](./section-01-Introduction-to-web-development) | 📁 [Section 2 Folder](./section-02-HTML-basics)
-*   **Document Anatomy:** Working with modern browser rendering standards, document types (`<!DOCTYPE html>`), and basic document wrappers (`<html>`, `<head>`, `<body>`).
-*   **Semantic Layout Elements:** Organizing page structures professionally using native layout boundaries like `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, and `<footer>`.
-*   **Text & Data Formats:** Organizing written copy dynamically utilizing ordered/unordered nested lists (`<ul>`, `<ol>`, `<li>`), clear tables (`<table>`, `<tr>`, `<td>`, `<th>`), block text layouts, and character entities.
-*   **Media Elements & Links:** Integrating local and remote image sources (`<img>`), adding accessible description fields (`alt` tags), structuring hyperlinks (`<a>` tags) with target redirects, and embedding video/audio players natively.
-*   **HTML Forms:** Building interactive contact modules using explicit containers (`<form>`), structured fields (`<input>`, `<textarea>`), connected input titles (`<label>`), checkboxes, selection dropdowns, and button actions.
-*   **🛠️ Milestone Project 1:** *Distraction-Free YouTube UI* — A complete front-end blueprint designed to render embedded multimedia components within a custom, distraction-free HTML structure.
-
-#### 2. CSS3 Styling & Responsive Design (Presentation)
-*   **Foundations & Selectors:** Mastering CSS rule mechanics, target selectors (Element, Class, ID, Attribute), CSS specificity calculations, colors, and standard font settings.
-*   **The CSS Box Model:** Configuring element spacing configurations by balancing content dimensions, target inner padding (`padding`), structural borders (`border`), and external structural margins (`margin`).
-*   **Layout Engines:** Arranging advanced page modules leveraging modern layout algorithms including **CSS Flexbox** (flex containers, axis alignment, growth limits) and **CSS Grid** (grid column-row mappings, gaps, template configurations).
-*   **Responsive Web Design (RWD):** Making layouts accessible on mobile devices using fluid units, viewpoint targets, and clean **Media Queries** to update style configurations at responsive screen width breakpoints.
-*   **🛠️ Milestone Project 2:** *Personal Portfolio Website* — A fully custom, fully responsive personal landing brand page constructed entirely from scratch utilizing custom-styled grid alignments and modular flex containers.
+Official curriculum for **CodeWithHarry's Ultimate Web Development Course** — 18 sections, 146 lectures total. Each completed section is broken down lecture-by-lecture below, with a link to my folder for that lesson.
 
 ---
 
-### ⚡ Module 2: Client-Side Interactivity & Logic
+### ✅ Section 1: Introduction to Web Development (4 lectures)
 
-#### 3. Modern JavaScript Mastery (ECMAScript 6+)
-*   **Language Fundamentals:** Utilizing scope variables (`let`, `const`), strict data types (Strings, Numbers, Booleans, Null, Undefined), assignment operators, and relational logic control structures (`if/else`, `switch`).
-*   **Functional Code Loops:** Writing clean iteration statements (`for`, `while`, `forEach`) and grouping code into clean functional modules using traditional declarations and modern **ES6 Arrow Functions**.
-*   **Complex Data Collections:** Accessing data objects natively inside structured JavaScript Arrays and Multi-Tier Objects using array iteration methods (`.map()`, `.filter()`, `.reduce()`).
-*   **Asynchronous JavaScript Foundations:** Managing time-delayed computations, building network request lifecycles, and formatting responses cleanly using asynchronous Promise patterns (`async/await`) along with the browser's native **Fetch API**.
+1. [Introduction to Web Development](./section-01-Introduction-to-web-development/01_introduction_to_web_development.html)
+2. [Installing VS Code & Setting Up Our Environment](./section-01-Introduction-to-web-development/02_installing_vscode_and_setting_up_environment.html)
+3. [History Of Web Development](./section-01-Introduction-to-web-development/03_history_of_web_development.html)
+4. [How Websites Work](./section-01-Introduction-to-web-development/04_how_websites_work.html)
 
-#### 4. Browser DOM Engineering
-*   **Node Selection & Updates:** Interacting directly with the Document Object Model (DOM) using programmatic lookup commands (`querySelector`, `getElementById`) to modify style attributes and update inline values dynamically.
-*   **Event Handling:** Capturing continuous client activity across a page by embedding strategic event listeners (`click`, `submit`, `keyup`) onto target interfaces.
-*   **Advanced UI Architecture:** Stepping into component-driven development workflows by organizing frontend data states and UI blocks into structural applications using **React Essentials**.
-*   **🛠️ Milestone Project 3:** *Reactive State To-Do List Application* — An interactive web dashboard built to manage, filter, and render task lists dynamically in response to user inputs and programmatic event triggers.
+📁 [Section Folder](./section-01-Introduction-to-web-development)
 
 ---
 
-### ⚙️ Module 3: Backend Services & Data Engineering
+### ✅ Section 2: HTML Basics (9 lectures)
 
-#### 5. Server Architecture via Node.js & Express.js
-*   **Local Environments & Runtimes:** Running JavaScript code independently on local machines outside the browser using the Node.js execution runtime.
-*   **Dependency Management:** Installing and maintaining external code modules and tool libraries utilizing **NPM** (Node Package Manager).
-*   **Express Server Operations:** Setting up localized backend web applications, routing incoming requests, listening on device network ports, and handling HTTP status configurations.
-*   **RESTful Routing Patterns:** Constructing functional server endpoints designed to handle incoming data formats across standard request methods (`GET`, `POST`, `PUT`, `DELETE`).
+5. [Introduction to HTML](./section-02-HTML-basics/05_introduction_to_html)
+6. [Headings and Paragraphs](./section-02-HTML-basics/06_headings_and_paragraphs)
+7. [Formatting Text: Bold, Italics, Underline, etc.](./section-02-HTML-basics/07_formatting_text_bold_italics_underline_etc)
+8. [HTML Comments and Whitespaces](./section-02-HTML-basics/08_html_comments_and_whitespaces)
+9. [Links and Anchor Tags](./section-02-HTML-basics/09_links_and_anchor_tags)
+10. [Images in HTML](./section-02-HTML-basics/10_images_in_html)
+11. [Lists: Ordered and Unordered](./section-02-HTML-basics/11_lists_ordered_and_unordered)
+12. [Tables in HTML](./section-02-HTML-basics/12_tables_in_html)
+13. [HTML Forms: Inputs, Labels, and Buttons](./section-02-HTML-basics/13_html_forms_inputs_labels_buttons)
 
-#### 6. Database Persistence via MongoDB
-*   **NoSQL Database Paradigms:** Setting up isolated cloud database clusters, managing data instances within flexible collections, and understanding document-oriented storage.
-*   **Database Operations (CRUD):** Executing atomic queries to create records, read documents, update existing entries, and delete objects securely through backend queries.
-*   **Full-Stack Pipeline Integration:** Securely connecting Express server applications directly to a MongoDB back-end instance to pass client data from a front-end interface straight into permanent database records.
+📁 [Section Folder](./section-02-HTML-basics)
 
-#### 7. Modern Software Workflows (Git & GitHub)
-*   **Version Tracking Workflows:** Initializing local project tracking logs (`git init`), inspecting file states, staging modified folders, and writing descriptive commit tracking entries.
-*   **Cloud Synchronizations:** Creating remote project linkages to seamlessly push local development files straight to your live profile repositories on GitHub.
+---
+
+### ⏳ Sections Not Yet Reached
+
+Lecture-level topics will be added here once I actually reach each section — no point listing titles I haven't verified from the course yet.
+
+| # | Section | Lectures | Status |
+|---|---|---|---|
+| 3 | Advanced HTML | 8 | ⏳ In progress |
+| 4 | Project 1 — Distraction Free YouTube | 4 | ⬜ Not started |
+| 5 | Introduction to CSS | 10 | ⬜ Not started |
+| 6 | Advanced CSS | 6 | ⬜ Not started |
+| 7 | Project 2 — Personal Portfolio (HTML & CSS) | 8 | ⬜ Not started |
+| 8 | Introduction to JavaScript | 14 | ⬜ Not started |
+| 9 | DOM Manipulation | 7 | ⬜ Not started |
+| 10 | Advanced DOM Manipulation | 3 | ⬜ Not started |
+| 11 | Events in JavaScript | 4 | ⬜ Not started |
+| 12 | Advanced JavaScript Concepts | 4 | ⬜ Not started |
+| 13 | Project 3 — Todo List App | 10 | ⬜ Not started |
+| 14 | Working with Node.js | 12 | ⬜ Not started |
+| 15 | Web Development Using Express.js | 8 | ⬜ Not started |
+| 16 | Working with MongoDB | 6 | ⬜ Not started |
+| 17 | Version Control: Git for Web Developers | 16 | ⬜ Not started |
+| 18 | React Essentials | 13 | ⬜ Not started |
+
+> 💡 **Note on Project 2:** My real, live portfolio site (deployed separately at [tirth-1110.github.io](https://tirth-1110.github.io)) was built ahead of schedule. When I reach Section 7 in this course, that project folder will be a separate practice build — not a duplicate of my actual portfolio.
 
 ---
 
 ## 🌐 Connect With Me
 Let's connect, share insights, and discuss web development! You can reach out or follow my progress across these platforms:
 
+*   🌍 **Portfolio:** [tirth-1110.github.io](https://tirth-1110.github.io)
 *   💼 **LinkedIn:** [Tirth Patel](https://www.linkedin.com/in/tirth-patel-251836428/)
 *   📸 **Instagram:** [@tirth_422](https://www.instagram.com/tirth_422/)
 
