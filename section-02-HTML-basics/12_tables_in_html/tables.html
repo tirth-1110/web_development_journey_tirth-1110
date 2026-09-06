@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <p>Tables are used to display data in a structured format. Tables consist of rows and columns, and are created using the &lt;table&gt; element. &lt;tr&gt; elements define the rows, and &lt;td&gt; elements define the cells within each row. &lt;th&gt; elements define the header cells within each row.</p>
+    <p>By default, tables have a no border. border attribute is used to add a border to the table.</p>
+    <p><b>Table headings vs. table data</b></p>
+    <p>Table headings are typically used to define the purpose of each column in the table. They are displayed in a bold font and are usually placed in the first row of the table. Table data cells contain the actual information to be displayed in the table.</p>
+    <p><b>Spanning columns and rows</b></p>
+    <p>Use the colspan and rowspan attributes to span (merge) cells across multiple columns or rows.</p>
+    <h2>Example Table</h2>
+    <table border="1">
+        <tr>
+            <th>Serial No.</th>
+            <th>Fruits</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Chikoo</td>
+            <td>$2.50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Banana</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Apple</td>
+            <td>$3.00</td>
+        </tr>
+    </table>
+    <h2>Example Table with Spanning</h2>
+    <table border="1">
+        <tr>
+            <th>Serial No.</th>
+            <th>Fruits</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Chikoo</td>
+            <td>$2.50</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan="2">Apple - $3.00</td>
+        </tr>
+    </table>
+</body>
+</html>
