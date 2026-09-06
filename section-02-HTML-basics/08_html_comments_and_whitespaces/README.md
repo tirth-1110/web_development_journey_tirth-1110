@@ -4,12 +4,12 @@
 Two separate concepts bundled into one folder: how to write HTML comments, and how HTML collapses whitespace unless told otherwise.
 
 ## 📁 Files
-- `comments.html`
-- `whitespaces.html`
+- [`comments.html`](./comments.html)
+- [`whitespaces.html`](./whitespaces.html)
 
 ## 🏗️ Structure
 
-### 💬 `comments.html`
+### 💬 [`comments.html`](./comments.html)
 -  `<!DOCTYPE html>` and `<html lang="en">`
 -  `<head>` — `<title>` only
 -  `<body>`
@@ -19,7 +19,7 @@ Two separate concepts bundled into one folder: how to write HTML comments, and h
   -  A paragraph noting the `Ctrl + /` editor shortcut and manual comment syntax
   -  A closing note: comments are invisible in the rendered page but visible via "View Source" / DevTools — so never put sensitive info in them
 
-### ⬜ `whitespaces.html`
+### ⬜ [`whitespaces.html`](./whitespaces.html)
 -  `<!DOCTYPE html>` and `<html lang="en">`
 -  `<head>` — `<title>` only
 -  `<body>`
