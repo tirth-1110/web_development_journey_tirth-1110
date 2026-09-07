@@ -11,7 +11,7 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 ## 🗺️ Module Checklist (To-Do List)
 
-- [ ] **14. Form Elements: Radio, Checkbox, Select, Textarea** [📁](./14_form_elements_radio_checkbox_select_textarea)
+- [x] **14. Form Elements: Radio, Checkbox, Select, Textarea** [📁](./14_form_elements_radio_checkbox_select_textarea)
 
 - [ ] **15. Inline vs Block Elements & HTML5 Semantic Tags** [📁](./15_inline_vs_block_elements_and_semantic_tags)
 
