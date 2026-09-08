@@ -31,5 +31,11 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 ## 📅 Daily Progress Log
 
+*   **Day 03** ⚡ 
+    *   **Completed:** *Lec 14 (Form Elements: Radio, Checkbox, Select, Textarea)*, *Lec 15 (Inline vs Block Elements & HTML5 Semantic Tags)*, and *Lec 16 (HTML Entities & Special Characters)*.
+    *   **Achieved:** Learned additional form input types, the distinction between inline and block-level elements, HTML5 semantic layout tags (`header`, `nav`, `main`, `section`, `aside`, `footer`), and common HTML entities for special characters.
+    *   **Applied:** Added an `<h2>`-`<h6>`-structured layout, a footer with `&copy;`, and semantic tags to my personal portfolio site.
+
 *   **Day [Counting...]** ⏳ 
-    *   **Next Milestone:** *Lec 14: Form Elements — Radio, Checkbox, Select, Textarea*
+    *   **Next Milestone:** *Lec 17: Audio and Video Embedding*
+ 
