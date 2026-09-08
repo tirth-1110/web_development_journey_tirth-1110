@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>iframes and embedding content</title>
+</head>
+
+<body>
+    <h1>Iframes and Embedding Content</h1>
+    <p>Iframes allow you to embed another HTML page within the current page. &lt;iframe&gt; tag is used for this
+        purpose.</p>
+    <iframe src="https://tirth-1110.github.io" width="600" height="400"></iframe>
+    <p>This is my portfolio website.</p>
+    <h2>Embedding a YouTube Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gTKS8SAwUzE?si=gnMAEGcwjlc-_8sb"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Some Important attributes of iframes</h2>
+    <table border="1">
+        <tr>
+            <th>Attribute</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>src</td>
+            <td>Specifies the URL of the page to embed.</td>
+        </tr>
+        <tr>
+            <td>width, height</td>
+            <td>Specifies the width and height of the iframe.</td>
+        </tr>
+        <tr>
+            <td>frameborder</td>
+            <td>Specifies whether to display a border around the iframe.</td>
+        </tr>
+        <tr>
+            <td>allowfullscreen</td>
+            <td>Allows the iframe content to be displayed in fullscreen mode.</td>
+        </tr>
+        <tr>
+            <td>loading="lazy"</td>
+            <td>Specifies how the iframe should be loaded (e.g., lazy loading).</td>
+        </tr>
+    </table>
+    <p><b>Security Note:</b> Some websites may block iframe embedding for security reasons using headers like X-Frame-Options.</p>
+</body>
+
+</html>
