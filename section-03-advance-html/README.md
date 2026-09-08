@@ -13,7 +13,7 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **14. Form Elements: Radio, Checkbox, Select, Textarea** [📁](./14_form_elements_radio_checkbox_select_textarea)
 
-- [x] **15. Inline vs Block Elements & HTML5 Semantic Tags** [📁](./15_inline_vs_block_elements_and_semantic_tags)
+- [x] **15. Inline vs Block Elements & HTML5 Semantic Tags** [📁](./15_inline_vs_block_elements_&_html5_semantic_tags)
 
 - [x] **16. HTML Entities & Special Characters** [📁](./16_html_entities_and_special_characters)
 
