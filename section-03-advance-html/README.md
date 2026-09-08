@@ -17,9 +17,9 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **16. HTML Entities & Special Characters** [📁](./16_html_entities_and_special_characters)
 
-- [ ] **17. Audio and Video Embedding** [📁](./17_audio_and_video_embedding)
+- [x] **17. Audio and Video Embedding** [📁](./17_audio_and_video_embedding)
 
-- [ ] **18. iFrames and Embedding Content** [📁](./18_iframes_and_embedding_content)
+- [x] **18. iFrames and Embedding Content** [📁](./18_iframes_and_embedding_content)
 
 - [ ] **19. Using Meta Tags and SEO Basics** [📁](./19_meta_tags_and_seo_basics)
 
@@ -36,6 +36,9 @@ This folder documents my progress, core concepts, and coding practice exercises 
     *   **Achieved:** Learned additional form input types, the distinction between inline and block-level elements, HTML5 semantic layout tags (`header`, `nav`, `main`, `section`, `aside`, `footer`), and common HTML entities for special characters.
     *   **Applied:** Added an `<h2>`-`<h6>`-structured layout, a footer with `&copy;`, and semantic tags to my personal portfolio site.
 
+*   **Day 04** 🎬 
+    *   **Completed:** *Lec 17 (Audio and Video Embedding)* and *Lec 18 (iFrames and Embedding Content)*.
+    *   **Achieved:** Learned `<audio>`/`<video>` tags with `<source>` for media embedding, and `<iframe>` for embedding external pages and content within a page.
+    *   **Applied:** Embedded my own live portfolio site inside an iframe as a practice example, alongside a YouTube video embed.
 *   **Day [Counting...]** ⏳ 
-    *   **Next Milestone:** *Lec 17: Audio and Video Embedding*
- 
+    *   **Next Milestone:** *Lec 19: Using Meta Tags and SEO Basics*
