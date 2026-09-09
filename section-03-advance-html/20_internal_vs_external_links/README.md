@@ -27,4 +27,4 @@ The difference between **internal links** (pointing to pages/sections within the
 -  Linking to non-HTML resources (PDFs, emails via `mailto:`, phone numbers via `tel:`)
 
 ## ▶️ How to view
-Open `links.html` directly in any browser — no build step or dependencies required. Click through the internal links to confirm same-page/site navigation, and the external links to confirm they open in a new tab. 🌍
+Open `internal_and_external_links.html` directly in any browser — no build step or dependencies required. Click through the internal links to confirm same-page/site navigation, and the external links to confirm they open in a new tab. 🌍
