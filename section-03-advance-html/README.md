@@ -21,11 +21,11 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **18. iFrames and Embedding Content** [📁](./18_iframes_and_embedding_content)
 
-- [ ] **19. Using Meta Tags and SEO Basics** [📁](./19_meta_tags_and_seo_basics)
+- [x] **19. Using Meta Tags and SEO Basics** [📁](./19_meta_tags_and_seo_basics)
 
-- [ ] **20. Internal vs External Links** [📁](./20_internal_vs_external_links)
+- [x] **20. Internal vs External Links** [📁](./20_internal_vs_external_links)
 
-- [ ] **21. Best Practices for Writing Clean HTML** [📁](./21_best_practices_for_writing_clean_html)
+- [x] **21. Best Practices for Writing Clean HTML** [📁](./21_best_practices_for_writing_clean_html)
 
 ---
 
@@ -40,5 +40,16 @@ This folder documents my progress, core concepts, and coding practice exercises 
     *   **Completed:** *Lec 17 (Audio and Video Embedding)* and *Lec 18 (iFrames and Embedding Content)*.
     *   **Achieved:** Learned `<audio>`/`<video>` tags with `<source>` for media embedding, and `<iframe>` for embedding external pages and content within a page.
     *   **Applied:** Embedded my own live portfolio site inside an iframe as a practice example, alongside a YouTube video embed.
-*   **Day [Counting...]** ⏳ 
-    *   **Next Milestone:** *Lec 19: Using Meta Tags and SEO Basics*
+
+-   **Day 05** 🔗
+    * **Completed:** *Lec 19 (Using Meta Tags and SEO Basics)*, *Lec 20 (Internal vs External Links)*, and *Lec 21 (Best Practices for Writing Clean HTML)*.
+    * **Achieved:** Learned the core `<meta>` tags (`charset`, `description`, `keywords`, `viewport`,  `author`) and how they support SEO; the difference between internal links (relative paths, in-page anchors) and external links (absolute URLs, `target="_blank"` with `rel="noopener noreferrer"`); and conventions for writing clean, maintainable HTML — consistent indentation, lowercase tags/ attributes, meaningful class/id naming, avoiding inline styles, and closing tags properly.
+    * **Applied:** Added a properly populated `<head>` with SEO meta tags, built out internal navigation alongside safely-configured external links, and refactored earlier practice files to follow cleaner HTML conventions.
+
+    ---
+ 
+    ## 🏁 Conclusion
+ 
+    - **Section Status:** 🎉 Fully Completed!
+    - **Total Time Spent:** 3 day *(including lecture videos, coding practice, and debugging)*
+    - **Final Takeaway:** Went from generic `<div>`-heavy markup to writing pages that actually think about structure — semantic tags, embedded media, iframes, SEO-aware `<head>` content, and the internal-vs-external link distinction all came together in this section. Cleaning up earlier files to follow proper HTML conventions was the real payoff; writing HTML that's readable and maintainable, not just functional, is what carries into Section 4.
