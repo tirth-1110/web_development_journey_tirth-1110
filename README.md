@@ -51,6 +51,28 @@ Official curriculum for **CodeWithHarry's Ultimate Web Development Course** — 
 📁 [Section Folder](./section-02-html-basics)
 
 ---
+ 
+### ✅ Section 3: Advanced HTML (8 lectures)
+ 
+14. [Form Elements: Radio, Checkbox, Select, Textarea](./section-03-advance-html/14_form_elements_radio_checkbox_select_textarea/)
+15. [Inline vs Block Elements & HTML5 Semantic Tags](./section-03-advance-html/15_inline_vs_block_elements_&_html5_semantic_tags/)
+16. [HTML Entities & Special Characters](./section-03-advance-html/16_html_entities_and_special_characters/)
+17. [Audio and Video Embedding](./section-03-advance-html/17_audio_and_video_embedding/)
+18. [iFrames and Embedding Content](./section-03-advance-html/18_iframes_and_embedding_content/)
+19. [Using Meta Tags and SEO Basics](./section-03-advance-html/19_using_meta_tags_and_seo_basics/)
+20. [Internal vs External Links](./section-03-advance-html/20_internal_vs_external_links/)
+21. [Best Practices for Writing Clean HTML](./section-03-advance-html/21_best_practices_for_writing_clean_html)
+📁 [Section Folder](./section-03-advance-html/)
+ 
+---
+ 
+### 🔄 Section 4: Project 1 — Distraction Free YouTube (4 lectures) — In Progress
+ 
+Lecture-level breakdown will be filled in as I complete each part of this project.
+ 
+📁 [Section Folder](./section-04-project-01/)
+ 
+---
 
 ### ⏳ Sections Not Yet Reached
 
@@ -58,8 +80,7 @@ Lecture-level topics will be added here once I actually reach each section — n
 
 | # | Section | Lectures | Status |
 |---|---|---|---|
-| 3 | Advanced HTML | 8 | ⬜ Not started |
-| 4 | Project 1 — Distraction Free YouTube | 4 | ⬜ Not started |
+| 4 | Project 1 — Distraction Free YouTube | 4 | ⏳ In Progress |
 | 5 | Introduction to CSS | 10 | ⬜ Not started |
 | 6 | Advanced CSS | 6 | ⬜ Not started |
 | 7 | Project 2 — Personal Portfolio (HTML & CSS) | 8 | ⬜ Not started |
