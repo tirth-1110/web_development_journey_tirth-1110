@@ -14,13 +14,13 @@ This is the first hands-on project of the course — a mini clone of YouTube's h
 
 | Page | Description |
 |---|---|
-| [`index.html`](./index.html) | Homepage — a table-based grid of 6 category thumbnails (Music, Coding, Web Development, Gaming, C Language, Programming), each linking to its category page |
-| [`music.html`](./music.html) | Grid of embedded music videos |
-| [`coding.html`](./coding.html) | Grid of embedded coding videos |
-| [`web_development.html`](./web_development.html) | Grid of embedded web development videos |
-| [`gaming.html`](./gaming.html) | Grid of embedded gaming videos |
-| [`c_language.html`](./c_language.html) | Grid of embedded C language videos |
-| [`programming.html`](./programming.html) | Grid of embedded programming videos |
+| [`index.html`](./project-01/index.html) | Homepage — a table-based grid of 6 category thumbnails (Music, Coding, Web Development, Gaming, C Language, Programming), each linking to its category page |
+| [`music.html`](./project-01/music.html) | Grid of embedded music videos |
+| [`coding.html`](./project-01/coding.html) | Grid of embedded coding videos |
+| [`web_development.html`](./project-01/web_development.html) | Grid of embedded web development videos |
+| [`gaming.html`](./project-01/gaming.html) | Grid of embedded gaming videos |
+| [`c_language.html`](./project-01/c_language.html) | Grid of embedded C language videos |
+| [`programming.html`](./project-01/programming.html) | Grid of embedded programming videos |
 
 ---
 
