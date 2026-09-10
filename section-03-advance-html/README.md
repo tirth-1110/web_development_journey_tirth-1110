@@ -48,8 +48,8 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
     ---
  
-    ## 🏁 Conclusion
- 
-    - **Section Status:** 🎉 Fully Completed!
-    - **Total Time Spent:** 3 day *(including lecture videos, coding practice, and debugging)*
-    - **Final Takeaway:** Went from generic `<div>`-heavy markup to writing pages that actually think about structure — semantic tags, embedded media, iframes, SEO-aware `<head>` content, and the internal-vs-external link distinction all came together in this section. Cleaning up earlier files to follow proper HTML conventions was the real payoff; writing HTML that's readable and maintainable, not just functional, is what carries into Section 4.
+## 🏁 Conclusion
+
+*   **Section Status:** 🎉 Fully Completed!
+*   **Total Time Spent:** 3 days *(including lecture videos, coding practice, and debugging)*
+*   **Final Takeaway:** Went from generic `<div>`-heavy markup to writing pages that actually think about structure — semantic tags, embedded media, iframes, SEO-aware `<head>` content, and the internal-vs-external link distinction all came together in this section. Cleaning up earlier files to follow proper HTML conventions was the real payoff; writing HTML that's readable and maintainable, not just functional, is what carries into Section 4..
