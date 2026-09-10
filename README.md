@@ -62,16 +62,29 @@ Official curriculum for **CodeWithHarry's Ultimate Web Development Course** — 
 19. [Using Meta Tags and SEO Basics](./section-03-advance-html/19_using_meta_tags_and_seo_basics/)
 20. [Internal vs External Links](./section-03-advance-html/20_internal_vs_external_links/)
 21. [Best Practices for Writing Clean HTML](./section-03-advance-html/21_best_practices_for_writing_clean_html)
+
 📁 [Section Folder](./section-03-advance-html/)
  
 ---
  
-### 🔄 Section 4: Project 1 — Distraction Free YouTube (4 lectures) — In Progress
+### ✅ Section 4: Project 1 — Distraction Free YouTube (4 lectures)
  
-Lecture-level breakdown will be filled in as I complete each part of this project.
- 
+22. [Introduction to DF YouTube](./section-04-project-01/project-01/)
+23. [Adding Videos](./section-04-project-01/project-01/)
+24. [Creating More Pages](./section-04-project-01/project-01/)
+25. [Wrapping Up DF YouTube](./section-04-project-01/project-01/)
+
+
 📁 [Section Folder](./section-04-project-01/)
  
+---
+
+### 🔄 Section 5: Introduction to CSS (10 lectures)
+
+Lecture-level breakdown will be filled in as I complete each part of this project.
+
+📁 [Section Folder](./section-05-introduction-to-css/)
+
 ---
 
 ### ⏳ Sections Not Yet Reached
@@ -80,8 +93,7 @@ Lecture-level topics will be added here once I actually reach each section — n
 
 | # | Section | Lectures | Status |
 |---|---|---|---|
-| 4 | Project 1 — Distraction Free YouTube | 4 | ⏳ In Progress |
-| 5 | Introduction to CSS | 10 | ⬜ Not started |
+| 5 | Introduction to CSS | 10 | ⏳ In Progress |
 | 6 | Advanced CSS | 6 | ⬜ Not started |
 | 7 | Project 2 — Personal Portfolio (HTML & CSS) | 8 | ⬜ Not started |
 | 8 | Introduction to JavaScript | 14 | ⬜ Not started |
