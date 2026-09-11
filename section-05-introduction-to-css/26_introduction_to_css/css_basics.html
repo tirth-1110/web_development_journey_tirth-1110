@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+</head>
+
+<body>
+    <h1>CSS</h1>
+    <p>CSS (cascading strle sheet) is used to style and layout web pages - including colors, fonts, spacing and
+        positioning of elements. While HTML gives structure to a web pages, CSS makes it look beautiful and usable.</p>
+    <h2>Why CSS?</h2>
+    <p>Without CSS, all websites would look plain, like unstyled documents. CSS helps you:</p>
+    <ul>
+        <li>Change colors and fonts</li>
+        <li>Add spacing and layout</li>
+        <li>Makes responsive designs for mobile</li>
+        <li>Animate and transitions between states</li>
+        <li>Separation of concerns: HTML for structure, CSS for style</li>
+    </ul>
+    <h2>How CSS works with HTML</h2>
+    <p>CSS can be applied to HTML in <b>three main ways:</b></p>
+    <ol>
+        <li><strong>Inline CSS</strong></li>
+        <ul>
+            <li>CSS written inside an HTML tag using the "style" attribute.</li>
+            <li>Example:
+                <pre><p>&lt;p style="color: red; font-size: 18px;"&gt;<p style="color: red; font-size: 18px;">This is a red paragraph</p>&lt;/p&gt;</p></pre>
+            </li>
+        </ul>
+        <li><strong>Internal CSS</strong></li>
+        <ul>
+            <li>CSS written inside a &lt;style&gt; tag withing the &lt;head&gt; section of HTML.</li>
+            <li>Example:
+                <pre><p>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Internal CSS&lt;/title&gt;<strong>
+    &lt;style&gt;
+        h1 {
+            color: blue;
+            font-size: 22px;
+        }
+    &lt;/style&gt;</strong>
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Internal CSS&lt;/h1&gt;
+&lt;/body&lt;
+&lt;html&gt;
+                </p></pre>
+            </li>
+            <li>Output:
+                <p style="color: blue; font-size: 22px;">Internal CSS</p>
+            </li>
+        </ul>
+        <li><strong>External CSS</strong></li>
+        <ul>
+            <li>CSS written in a separate file and linked to the HTML file. This is the <strong>most recommended</strong> method for real-world projects.</li>
+            <li>Example:
+                <p><strong>style.css</strong></p>
+                <pre>
+h1 {
+    color: green;
+    font-size: 22px;
+}
+                </pre>
+                <p><strong>index.html</strong></p>
+                <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;External CSS&lt;/title<strong>
+    &lt;link rel="stylesheet" href="style.css"&gt;</strong>
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;External CSS&lt;/h1&gt;
+&lt;/body&gt;
+&lt;html&gt;
+                </pre>
+            </li>
+            <li>Output:
+                <p style="color: rgb(0, 255, 0); font-size: 22px;">External CSS</p>
+            </li>
+        </ul>
+    </ol>
+    <h2>The "Cascading" in CSS</h2>
+    <p>If there are multiple rules targeting the same element, CSS uses the <strong>cascade</strong> to decide which rule to apply. This depends on:</p>
+    <ul>
+        <li><strong>Specificity</strong> (How specific the selector is)</li>
+        <li><strong>Order of Appearance</strong></li>
+        <li><strong>Importance (!important)</strong></li>
+    </ul>
+    <h2>Anatomy of a CSS rule</h2>
+    <pre>
+selector {
+    property: value;
+}
+    </pre>
+    <h3>Example:</h3>
+    <pre>
+p {
+    color: yellow;
+    font-size: 22px;
+}
+    </pre>
+    <p>Here,</p>
+    <ul>
+        <li>p &RightArrow; Selector (targets all &lt;p&gt; elements)</li>
+        <li>color, font-size &rightarrow; Properties</li>
+        <li>yellow, 22px &rightarrow; Values</li>
+    </ul>
+</body>
+
+</html>
