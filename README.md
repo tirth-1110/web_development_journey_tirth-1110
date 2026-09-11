@@ -81,7 +81,16 @@ Official curriculum for **CodeWithHarry's Ultimate Web Development Course** — 
 
 ### 🔄 Section 5: Introduction to CSS (10 lectures)
 
-Lecture-level breakdown will be filled in as I complete each part of this project.
+26. [Introduction to CSS](./section-05-introduction-to-css/26_introduction_to_css)
+27. CSS Syntax and Selectors
+28. Colors in CSS
+29. Box Model in CSS
+30. Units in CSS
+31. Typography in CSS
+32. Backgrounds and Borders
+33. Margin and Padding
+34. The Display Property
+35. Positioning in CSS
 
 📁 [Section Folder](./section-05-introduction-to-css/)
 
@@ -93,7 +102,6 @@ Lecture-level topics will be added here once I actually reach each section — n
 
 | # | Section | Lectures | Status |
 |---|---|---|---|
-| 5 | Introduction to CSS | 10 | ⏳ In Progress |
 | 6 | Advanced CSS | 6 | ⬜ Not started |
 | 7 | Project 2 — Personal Portfolio (HTML & CSS) | 8 | ⬜ Not started |
 | 8 | Introduction to JavaScript | 14 | ⬜ Not started |
