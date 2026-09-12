@@ -1,0 +1,37 @@
+* {
+    background-color: cadetblue;
+}
+
+.css_syntax {
+    color: lime;
+}
+
+pre, .css, .html {
+    color: red;
+    font-size: 20px;
+}
+
+h2 {
+    color: lime;
+}
+
+.selectors {
+    color:aquamarine;
+}
+
+ol p {
+    color:aqua;
+    font-size: 22px;
+}
+
+#ul {
+    color:bisque;
+}
+
+#example {
+    color:blue;
+}
+
+p.note {
+    color:blue;
+}

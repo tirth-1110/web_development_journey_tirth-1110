@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Syntax and Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="css_syntax">CSS Syntax</h2>
+    <p class="note">Every CSS rule consists of a <strong>selector</strong> and a <strong>declaration block</strong>.</p>
+    <pre>
+selector {
+    property: value;
+}
+    </pre>
+    <p id="example">Example:</p>
+    <pre>
+h1 {
+    color: navy;
+    font-size: 22px;
+}
+    </pre>
+    <ul id="ul">
+        <li><code>"h1"</code> is a <b>selector</b></li>
+        <li><code>"color"</code> and <code>"font-size"</code> are <b>properties</b></li>
+        <li><code>"navy"</code> and <code>"32px"</code> are <b>values</b></li>
+        <li>The curly braces <code>"{}"</code> contain the <b>decoration block</b></li>
+        <li>Each declaration ends with a <code>";"</code></li>
+    </ul>
+    <h2>Types of Selectors</h2>
+    <ol>
+        <li class="selectors"><b>Element Selector</b></li>
+        <p>Selects all elements of a specific type.</p>
+        <pre>
+p {
+    color: gray;
+}
+        </pre>
+        <p>This targets all &lt;p&gt; tags.</p>
+        <li class="selectors"><b>Class Selector</b></li>
+        <p>Selects elements of a <b>specific class</b>.</p>
+        <p class="html"><b>HTML:</b></p>
+        <pre>
+&lt;p class="highlight"&gt;This is important&lt;/p&gt;
+        </pre>
+        <p class="css"><b>CSS:</b></p>
+        <pre>
+.highlight {
+    color: red;
+}
+        </pre>
+        <p>Use a period <b><code>"."</code></b> before the class name.</p>
+        <li class="selectors"><b>ID Selector</b></li>
+        <p>Selects a <b>single element</b> with a unique id.</p>
+        <p class="html"><b>HTML:</b></p>
+        <pre>
+&lt;p id="paragraph"&gt;ID selector selects a single element with a unique id.&lt;/p&gt;
+        </pre>
+        <p class="css"><b>CSS:</b></p>
+        <pre>
+#paragraph {
+    color: brown;
+}
+        </pre>
+        <p>Use a hash <code><b>"#"</b></code> before the ID name.</p>
+        <li class="selectors"><b>Universal Selector</b></li>
+        <p>Applies styles to <b>all elements</b> on the page.</p>
+        <pre>
+* {
+    width="100%";
+    height="100%";
+}
+        </pre>
+        <p>This is commonly used for resetting default styles.</p>
+        <li class="selectors"><b>Grouping Selectors</b></li>
+        <p>Apply the same styles to multiple selectors at once.</p>
+        <pre>
+h1, h2, h3 {
+    color: blue;
+}
+        </pre>
+        <p>This avoids repetition.</p>
+        <li class="selectors"><b>Descendant Selector</b></li>
+        <p>Targets elements nested inside other elements.</p>
+        <p class="html"><b>HTML:</b></p>
+        <pre>
+&lt;div&gt;
+    &lt;p&gt;This is a paragraph inside a div.&lt;/p&gt;
+&lt;/div&gt;
+        </pre>
+        <p class="css"><b>CSS:</b></p>
+        <pre>
+div p {
+    color: green;
+}
+        </pre>
+        <p>Only <code>&lt;p&gt;</code> tags inside <code>&lt;div&gt;</code> will be affected.</p>
+        <li class="selectors"><b>Combination Class and Element Selectors</b></li>
+        <p>You can be more specific by combining them.</p>
+        <pre>
+p.note {
+    color: orange;
+}
+        </pre>
+        <p>This targets only <code>&lt;p&gt;</code> elements with class <code>"note"</code></p>
+    </ol>
+</body>
+</html>
