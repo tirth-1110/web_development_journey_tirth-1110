@@ -82,7 +82,7 @@ Official curriculum for **CodeWithHarry's Ultimate Web Development Course** — 
 ### 🔄 Section 5: Introduction to CSS (10 lectures)
 
 26. [Introduction to CSS](./section-05-introduction-to-css/26_introduction_to_css)
-27. CSS Syntax and Selectors
+27. [CSS Syntax and Selectors](./section-05-introduction-to-css/27_css_syntax_and_selectors/)
 28. Colors in CSS
 29. Box Model in CSS
 30. Units in CSS
