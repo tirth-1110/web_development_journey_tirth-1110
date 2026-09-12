@@ -13,7 +13,7 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **26. Introduction to CSS** [📁](./26_introduction_to_css)
 
-- [ ] **27. CSS Syntax and Selectors** [📁](./27_css_syntax_and_selectors)
+- [x] **27. CSS Syntax and Selectors** [📁](./27_css_syntax_and_selectors)
 
 - [ ] **28. Colors in CSS** [📁](./28_colors_in_css)
 
