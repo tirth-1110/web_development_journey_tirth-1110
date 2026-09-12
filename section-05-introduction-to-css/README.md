@@ -39,5 +39,10 @@ This folder documents my progress, core concepts, and coding practice exercises 
     *   **Completed:** *Lec 26 (Introduction to CSS)*.
     *   **Achieved:** Learned what CSS is, the three ways to apply it to HTML (inline, internal, external), how the cascade resolves conflicting rules, and the basic anatomy of a CSS rule (selector, property, value).
     *   **Debugging:** Fixed a recurring nested-list structure bug, a typo in "Cascading style sheet," and two incomplete closing tags (`</title>`, `</body>`) inside escaped code examples.
+*   **Day 08** 🧩 
+    *   **Completed:** *Lec 27 (CSS Syntax and Selectors)*.
+    *   **Achieved:** Learned the anatomy of a CSS rule, and all core selector types — element, class, ID, universal, grouping, descendant, and combination selectors.
+    *   **Debugging:** Fixed an invalid CSS syntax example in the Universal Selector section, and a value mismatch between an example and its explanation.
+    *   **Applied:** Restructured my portfolio site using semantic tags (`header`, `nav`, `main`, `section`, `footer`) with working in-page navigation.
 *   **Day [Counting...]** ⏳ 
-    *   **Next Milestone:** *Lec 27: CSS Syntax and Selectors*
+    *   **Next Milestone:** *Lec 28: Colors in CSS*
