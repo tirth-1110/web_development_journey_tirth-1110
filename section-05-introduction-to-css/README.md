@@ -15,9 +15,9 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **27. CSS Syntax and Selectors** [📁](./27_css_syntax_and_selectors)
 
-- [ ] **28. Colors in CSS** [📁](./28_colors_in_css)
+- [x] **28. Colors in CSS** [📁](./28_colors_in_css)
 
-- [ ] **29. Box Model in CSS** [📁](./29_box_model_in_css)
+- [x] **29. Box Model in CSS** [📁](./29_box_model_in_css)
 
 - [ ] **30. Units in CSS** [📁](./30_units_in_css)
 
@@ -44,5 +44,11 @@ This folder documents my progress, core concepts, and coding practice exercises 
     *   **Achieved:** Learned the anatomy of a CSS rule, and all core selector types — element, class, ID, universal, grouping, descendant, and combination selectors.
     *   **Debugging:** Fixed an invalid CSS syntax example in the Universal Selector section, and a value mismatch between an example and its explanation.
     *   **Applied:** Restructured my portfolio site using semantic tags (`header`, `nav`, `main`, `section`, `footer`) with working in-page navigation.
+*   **Day 09** 🎨 
+    *   **Completed:** *Lec 28 (Colors in CSS)* and *Lec 29 (Box Model in CSS)*.
+    *   **Achieved:** Learned every CSS color format (named, HEX, RGB, RGBA, HSL, HSLA) plus `transparent`/`currentColor`, and the box model's four layers (Content, Padding, Border, Margin) including `content-box` vs `border-box` sizing.
+    *   **Debugging:** Fixed several typos and a deprecated `type="disc"` attribute in *Lec 28*, replacing it with the correct `list-style-type` CSS property; fixed a small typo in *Lec 29*.
+    *   **Applied:** Added my first real color and layout-adjacent CSS to my portfolio's header, nav, and footer using descendant selectors.
 *   **Day [Counting...]** ⏳ 
-    *   **Next Milestone:** *Lec 28: Colors in CSS*
+    *   **Next Milestone:** *Lec 30: Units in CSS*
+ 
