@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors in CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Colors in CSS</h1>
+    <p>Colors plays a major role in the visual appearance of a website. In CSS you can apply colors to text, background, borders, and other elements using different formats.</p>
+    <h2>Ways to define Colors.</h2>
+    <p>CSS supports several formats for defining colors.</p>
+    <ol>
+        <li><b>Named colors</b>
+            <p>CSS has a set of predefined color names like <code><b>red, blur, green, orange, yellow,</b></code> etc.</p>
+            <b><pre class="name">
+h1 {
+    color: red;
+}
+            </pre></b>
+        </li>
+        <li><b>HEX codes</b>
+            <p>A hexadecimal value represents a color using a <code><b>six-digit</b></code> code.</p>
+            <b><pre class="hex">
+body {
+    color: #00ffff;
+}
+            </pre></b>
+            <h4>Some common HEX Codes:</h4>
+            <ul type="disc">
+                <li><code><b>#000000 &RightArrow; Black</b></code></li>
+                <li><code><b>#ffffff &RightArrow; White</b></code></li>
+                <li><code><b>#ff0000 &RightArrow; Red</b></code></li>
+                <li><code><b>#00ff00 &RightArrow; Green</b></code></li>
+                <li><code><b>#0000ff &RightArrow; Blue</b></code></li>
+            </ul>
+            <p>You can also use shorthand if all pairs are the same:</p>
+            <b><pre class="hex_short">
+#fff /* same as #ffffff */
+#000 /* same as #000000 */
+#f00 /* same as #ff0000 */
+#0f0 /* same as #00ff00 */
+#00f /* same as #0000ff */
+            </pre></b>
+        </li>
+        <li><b>RGB (Red, Green, Blue)</b>
+            <p>You can define a color using <code><b>RGB</b></code> color model.</p>
+            <b><pre class="rgb">
+p {
+    color: rgb(255, 0, 0);
+}
+            </pre></b>
+            <ul type="disc">
+                <li>Values range from <code><b>0</b></code> to <code><b>255</b></code></li>
+                <li><code><b>rgb(0, 0, 0) &RightArrow; Black</b></code></li>
+                <li><code><b>rgb(255, 255, 255) &RightArrow; White</b></code></li>
+            </ul>
+        </li><br>
+        <li><b>RGBA (RGB + Alpha)</b>
+            <p>Adds <code><b>opacity</b></code> to RGB using <code><b>alpha</b></code> channel (0=transparent, 1=opaque).</p>
+            <b><pre class="rgba">
+div {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+            </pre></b>
+            <p>This creates a <code><b>semi-transparent (translucent)</b></code> black background.</p>
+        </li>
+        <li><b>HSL (Hue, Saturation, Lightness</b>
+            <p>Another way to define colors using:</p>
+            <ul type="disc">
+                <li><code><b>Hue</b></code> (color angle on the color wheel)</li>
+                <li><code><b>Saturation</b></code> (intensity of the color)</li>
+                <li><code><b>Lightness</b></code> (brightness)</li>
+            </ul>
+            <b><pre class="hsl">
+h2 {
+    color: hsl(240, 100%, 50%);
+}
+            </pre></b>
+        </li>
+        <li><b>HSLA (HSL + ALpha)</b>
+            <p>Same as <code><b>HSL</b></code>, but with transparency.</p>
+            <b><pre class="hsla">
+section {
+    background-color: hsla(240, 100%, 50%, 0.5);
+}
+            </pre></b>
+        </li>
+    </ol>
+    <h2>Applying colors in CSS</h2>
+    <p>You can use color properties in many different ways.</p>
+    <b><pre class="properties">
+h1 {
+    color: navy;                    /* Text color */
+    background-color: #e0e0e0;      /* Background color */
+    border: 2px solid #333;         /* Border color */
+}
+    </pre></b>
+    <h2>Transparent and currentColor</h2>
+    <ul>
+        <li><code><b>Transparent</b></code> &RightArrow; Makes an element's color fully transparent.</li>
+        <li><code><b>currentColor</b></code> &RightArrow; Inherits the current value of the <code><b>color</b></code> property.</li>
+    </ul>
+    <b><pre class="currentColor">
+button {
+    color: blue;
+    border: 2px solid currentColor;
+}
+    </pre></b>
+</body>
+</html>

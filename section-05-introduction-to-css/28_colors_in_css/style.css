@@ -1,0 +1,38 @@
+.name {
+    color: red;
+}
+
+.hex {
+    color: #00ffff;
+}
+
+.hex_short {
+    color: #00ffff;
+}
+
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.rgba {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hsl {
+    color: hsl(240, 100%, 50%);
+}
+
+.hsla {
+    background-color: hsla(240, 100%, 50%, 0.5);
+}
+
+.properties {
+    color: navy;                    /* Text color */
+    background-color: #e0e0e0;      /* Background color */
+    border: 2px solid #333;         /* Border color */
+}
+
+.currentColor {
+    color: blue;
+    border: 2px solid currentColor;
+}
