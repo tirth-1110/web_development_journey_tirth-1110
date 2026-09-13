@@ -1,4 +1,4 @@
- # 📄 29 — Box Model in CSS
+# 📄 29 — Box Model in CSS
 
 ## 🧭 What this lesson covers
 The four layers every HTML element is made of — Content, Padding, Border, Margin — how they stack to determine an element's actual rendered size, and the `content-box` vs `border-box` sizing models.
