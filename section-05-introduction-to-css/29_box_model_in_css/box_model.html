@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model in CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Box Model in CSS</h1>
+    <p>Every HTML element on a page is a rectangular box in the browser, and the <code><b>Box Model</b></code> defines
+        how that box behaves. It's the foundation of spacing, layout, and sizing in CSS
+    </p>
+    <h2>What is the BOX MODEL?</h2>
+    <p>The box model consists of <code><b>four layers</b></code>, from innermost to outermost.</p>
+    <b>
+        <pre class="box_model">
+|---------------------------------|
+|             Margin              |       
+|   |-------------------------|   |
+|   |         Border          |   |
+|   |   |-----------------|   |   |
+|   |   |     Padding     |   |   |
+|   |   |   |---------|   |   |   |
+|   |   |   | Content |   |   |   |
+|   |   |   |---------|   |   |   |
+|   |   |                 |   |   |
+|   |   |-----------------|   |   |
+|   |                         |   |
+|   |-------------------------|   |
+|                                 |
+|---------------------------------|</pre>
+    </b>
+    <h2>The Four Parts</h2>
+    <ol>
+        <li><b>Content</b>
+            <p>The actual text, image, or element inside the box.</p>
+            <b>
+                <pre class="content">
+.content {
+    width: 200px;
+    height: 100px;
+}</pre>
+            </b>
+        </li>
+        <li><b>Padding</b>
+            <p>Spacing <code><b>inside</b></code> the box, between content and border.</p>
+            <b>
+                <pre class="padding">
+.padding {
+    padding: 20px;
+}</pre>
+            </b>
+            <p>It pushes the content <code><b>inward</b></code>, increasing the box size.</p>
+        </li>
+        <li><b>Border</b>
+            <p>The border around the padding and content.</p>
+            <b>
+                <pre class="border">
+.border {
+    border: 2px solid black;
+}</pre></b>
+            <p>You can control its width, size and color</p>
+        </li>
+        <li><b>Margin</b>
+            <p>Space <code><b>outside</b></code> the border. Used to create distance between elements.</p>
+            <b><pre class="margin">
+.margin {
+    margin: 30px;
+}</pre></b>
+            <p>Margins do not have a background color and are completely transparent.</p>
+        </li>
+    </ol>
+    <h3>Example:</h3>
+    <b><pre class="example_1">
+.example_1 {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid gray;
+    margin: 40px;
+}</pre></b>
+    <p>The <code><b>actual space</b></code> this element occupies:</p>
+    <ul>
+        <li>Width: <code>300 + 2*20 (padding) + 2*5 (border)</code> = <code><b>350px</b></code></li>
+        <li>Height: <code>150 + 2*20 (padding) + 2*5 (border)</code> = <code><b>200px</b></code></li>
+    </ul>
+    <p>Margin is <code><b>outside</b></code> of this box, adding extra spaces between elements.</p>
+    <p>You can set margin of individual areas as well such as <code><b>margin-top, margin-bottom, margin-left, and margin-right</b></code>. Same can be done with <code><b>padding</b></code> and <code><b>border</b></code> as well.</p>
+    <b><pre class="margin_top">
+.margin_top {
+    margin: 10px 20px;  /* Sets top, bottom margin as 10px and left, right margin as 20ps. */
+}</pre></b>
+    <h2>Box Sizing: <code>content-box</code> vs <code>border-box</code></h2>
+    <p>By default, CSS uses <code><b>content-box</b></code>, where <code><b>width</b></code> and <code><b>height</b></code> apply <code><b>only to the content</b></code>, not padding or border.
+    </p>
+    <p>To include <code><b>padding</b></code> and <code><b>border</b></code> inside the specified dimensions, use:</p>
+    <b><pre class="border_box">
+.border_box {
+    box-sizing: border-box;
+}</pre></b>
+    <p>With <code><b>border-box</b></code>, the total width stays fixed, and padding and border are adjusted <code><b>inside</b></code> the box.</p>
+    <h3>Example:</h3>
+    <b><pre class="example_2">
+.example_2 {
+    width: 400px;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}</pre></b>
+    <p>In this case, the <code><b>total width remains 400px</b></code> including padding and border.
+    </p>
+</body>
+
+</html>
