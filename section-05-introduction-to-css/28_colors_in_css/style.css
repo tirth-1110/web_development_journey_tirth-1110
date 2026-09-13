@@ -36,3 +36,7 @@
     color: blue;
     border: 2px solid currentColor;
 }
+
+ul {
+    list-style-type: disc;
+}

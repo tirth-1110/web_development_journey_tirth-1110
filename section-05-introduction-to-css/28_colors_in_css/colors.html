@@ -13,7 +13,7 @@
     <p>CSS supports several formats for defining colors.</p>
     <ol>
         <li><b>Named colors</b>
-            <p>CSS has a set of predefined color names like <code><b>red, blur, green, orange, yellow,</b></code> etc.</p>
+            <p>CSS has a set of predefined color names like <code><b>red, blue, green, orange, yellow,</b></code> etc.</p>
             <b><pre class="name">
 h1 {
     color: red;
@@ -28,7 +28,7 @@ body {
 }
             </pre></b>
             <h4>Some common HEX Codes:</h4>
-            <ul type="disc">
+            <ul>
                 <li><code><b>#000000 &RightArrow; Black</b></code></li>
                 <li><code><b>#ffffff &RightArrow; White</b></code></li>
                 <li><code><b>#ff0000 &RightArrow; Red</b></code></li>
@@ -51,24 +51,24 @@ p {
     color: rgb(255, 0, 0);
 }
             </pre></b>
-            <ul type="disc">
+            <ul>
                 <li>Values range from <code><b>0</b></code> to <code><b>255</b></code></li>
                 <li><code><b>rgb(0, 0, 0) &RightArrow; Black</b></code></li>
                 <li><code><b>rgb(255, 255, 255) &RightArrow; White</b></code></li>
-            </ul>
-        </li><br>
+            </ul><br>
+        </li>
         <li><b>RGBA (RGB + Alpha)</b>
             <p>Adds <code><b>opacity</b></code> to RGB using <code><b>alpha</b></code> channel (0=transparent, 1=opaque).</p>
             <b><pre class="rgba">
 div {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
 }
             </pre></b>
             <p>This creates a <code><b>semi-transparent (translucent)</b></code> black background.</p>
         </li>
-        <li><b>HSL (Hue, Saturation, Lightness</b>
+        <li><b>HSL (Hue, Saturation, Lightness)</b>
             <p>Another way to define colors using:</p>
-            <ul type="disc">
+            <ul>
                 <li><code><b>Hue</b></code> (color angle on the color wheel)</li>
                 <li><code><b>Saturation</b></code> (intensity of the color)</li>
                 <li><code><b>Lightness</b></code> (brightness)</li>
@@ -79,7 +79,7 @@ h2 {
 }
             </pre></b>
         </li>
-        <li><b>HSLA (HSL + ALpha)</b>
+        <li><b>HSLA (HSL + Alpha)</b>
             <p>Same as <code><b>HSL</b></code>, but with transparency.</p>
             <b><pre class="hsla">
 section {
