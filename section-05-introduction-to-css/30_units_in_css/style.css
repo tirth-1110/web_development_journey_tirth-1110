@@ -1,0 +1,74 @@
+table {
+    border: 1px solid black;
+    padding: 0px;
+}
+
+thead, tbody, th, td, tr {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+html {
+    font-size: 16px;
+}
+
+.px {
+    font-size: 30px;
+    background-color: cadetblue;
+}
+
+.pt {
+    font-size: 15pt;
+    background-color: cadetblue;
+}
+
+.cm {
+    font-size: 1cm;
+    background-color: cadetblue;
+}
+
+.mm {
+    font-size: 10mm;
+    background-color: cadetblue;
+}
+
+.in {
+    font-size: 1in;
+    background-color: cadetblue;
+}
+
+.percentage {
+    width: 70%;
+    background-color: cadetblue;
+}
+
+.em {
+    font-size: 2em;
+    background-color: cadetblue;
+}
+
+.rem {
+    font-size: 2rem;   /* 32px */
+    background-color: cadetblue;
+}
+
+.vw_vh {
+    width: 80vw;    /* 80% width of the viewport */
+    height: 80vh;   /* 80% height of the viewport */
+    background-color: cadetblue;
+}
+
+.vmin {
+    font-size: 2vmin;
+    background-color: cadetblue;
+}
+
+.vmax {
+    font-size: 2vmax;
+    background-color: cadetblue;
+}
+
+.calc {
+    width: calc(100% - 200px);
+    background-color: cadetblue;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units in CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Units in CSS</h1>
+    <p>CSS units define the size, spacing, and positioning of the elements on a web page. Understanding units is essential for building layouts that are consistent, resposive, and easy to manage.</p>
+    <h2>Two Categories of Units</h2>
+    <ol>
+        <li><b>Absolute Units</b>
+            <p>These do <code><b>not change</b></code> based on screen size or parent element. Use them for fixed size elements (use cautiously in responsive designs).</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Unit</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code><b>px</b></code></td>
+                        <td>Pixels (most common absolute unit)</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>pt</b></code></td>
+                        <td>Points (1/72 of an inch)</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>cm</b></code></td>
+                        <td>Centimeters</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>mm</b></code></td>
+                        <td>Mellimeters</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>in</b></code></td>
+                        <td>Inches</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 class="h3">Examples:</h3>
+            <pre class="px"><b>
+.px {
+    font-size: 30px;
+}
+            </b></pre>
+            <pre class="pt"><b>
+.pt {
+    font-size: 15pt;
+}
+            </b></pre>
+            <pre class="cm"><b>
+.cm {
+    font-size: 1cm;
+}
+            </b></pre>
+            <pre class="mm"><b>
+.mm {
+    font-size: 10mm;
+}
+            </b></pre>
+            <pre class="in"><b>
+.in {
+    font-size: 1in;
+}
+            </b></pre>
+        </li>
+        <li><b>Relative Units</b>
+            <p>The are <code><b>responsive</b></code> and scale based on parent element, root font size, or viewport size.</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Unit</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code><b>%</b></code></td>
+                        <td>Relative to parent element</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>em</b></code></td>
+                        <td>Relative to parent's font size</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>rem</b></code></td>
+                        <td>Relative to root font size (usually <code><b>&lt;html&gt;</b></code>)</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>vw</b></code></td>
+                        <td>1% of viewport width</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>vh</b></code></td>
+                        <td>1% of viewport height</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>vmin</b></code></td>
+                        <td>1% of smaller viewport dimension</td>
+                    </tr>
+                    <tr>
+                        <td><code><b>vmax</b></code></td>
+                        <td>1% of larger viewport dimension</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 class="h3">Examples:</h3>
+            <pre class="percentage"><b>
+.percentage {
+    width: 70%;
+}
+            </b></pre>
+            <pre class="em"><b>
+.em {
+    font-size: 2em;
+}
+            </b></pre>
+            <pre class="rem"><b>
+html {
+    font-size: 16px;
+}
+
+.rem {
+    font-size: 2rem;   /* 32px */
+}
+            </b></pre>
+            <pre class="vw_vh"><b>
+.vw_vh {
+    width: 80vw;    /* 80% width of the viewport */
+    height: 80vh;   /* 80% height of the viewport */
+}
+            </b></pre>
+            <pre class="vmin"><b>
+.vmin {
+    font-size: 2vmin;
+}
+            </b></pre>
+            <pre class="vmax"><b>
+.vmax {
+    font-size: 2vmax;
+}
+            </b></pre>
+        </li>
+    </ol>
+    <h2>Commonly Used Units</h2>
+    <h3><code>px</code> (pixels)</h3>
+    <pre class="px"><b>
+.px {
+    margin: 30px;
+}
+    </b></pre>
+    <p>Fixed spacing that does not scale with screen size.</p>
+    <h3><code>%</code> (percentage)</h3>
+    <pre class="percentage"><b>
+.percentage {
+    width: 70%;
+}
+    </b></pre>
+    <p>Useful for making widths and heights relative to parent elements.</p>
+    <h3><code>em</code> vs <code>rem</code></h3>
+    <p><code><b>em</b></code>: Relative to the font size of the parent.</p>
+    <pre class="em"><b>
+.em {
+    font-size: 2em;   /* 2 times the parent's font size */
+}
+    </b></pre>
+    <p><code><b>rem</b></code>: Relative to the font size fo the root (<code><b>html</b></code>) element.</p>
+    <pre class="rem-5"><b>
+html {
+    font-size: 16px;
+}
+
+.rem {
+    font-size: 2rem;   /* 32px */
+}
+    </b></pre>
+    <p>Use <code><b>rem</b></code> for consistency in modern responsive designs.</p>
+    <h3><code>vw</code> and <code>vh</code></h3>
+    <pre class="vw_vh"><b>
+.vw_vh {
+    width: 80vw;    /* 80% width of the viewport */
+    height: 80vh;   /* 80% height of the viewport */
+}
+    </b></pre>
+    <p>This units are powerful for creating fullscreen layouts.</p>
+    <h2><code>calc()</code> Function</h2>
+    <p>Combine different units using <code><b>calc()</b></code>.</p>
+    <pre class="calc"><b>
+.calc {
+    width: calc(100% - 200px);
+}
+    </b></pre>
+    <h2>Best Practices</h2>
+    <ul>
+        <li>Use <code><b>rem</b></code> for typography for consistency and scalability.</li>
+        <li>Use <code><b>%</b></code>, <code><b>vw</b></code>, <code><b>vh</b></code> for responsive layouts.</li>
+        <li>Avoid overusing <code><b>px</b></code> in responsive designs.</li>
+    </ul>
+</body>
+</html>
