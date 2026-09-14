@@ -1,0 +1,70 @@
+.font-family {
+    font-family: Arial, sans-serif;
+    background-color: orange;
+}
+
+.font-size {
+    font-size: 30px;
+    background-color: orange;
+}
+
+.font-weight {
+    font-weight: lighter;
+    background-color: orange;
+}
+
+.font-style {
+    font-style: oblique;
+    background-color: orange;
+}
+
+.text-align {
+    text-align: center;
+    background-color: orange;
+}
+
+.line-height {
+    line-height: 2;
+    background-color: orange;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+    background-color: orange;
+}
+
+.word-spacing {
+    word-spacing: 10px;
+    background-color: orange;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    background-color: orange;
+}
+
+.lowercase {
+    text-transform: lowercase;
+    background-color: orange;
+}
+
+.capitalize {
+    text-transform: capitalize;
+    background-color: orange;
+}
+
+.text-decoration {
+    text-decoration: line-through;
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+.google_font {
+  font-family: "Caacupe One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: orange;
+}

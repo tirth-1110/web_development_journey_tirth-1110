@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography in CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Typography in CSS</h1>
+    <p>Typography is how text appears on a webpage - its font, size, spacing, alignment, weight, and overall readability. Good typography improves user experience and design quality.</p>
+    <h2>Basic Text Properties</h2>
+    <ol>
+        <li><code><b>font-family</b></code>
+            <p>Sets the typeface for your text.</p>
+            <pre class="font-family"><b>.font-family {
+    font-family: Arial, sans-serif;
+}</b></pre>
+            <ul>
+                <li>You can specify a list of fallback fonts.</li>
+                <li>Always end with a <code><b>generic family</b></code> like <code><b>sans-serif</b></code>, <code><b>serif</b></code> or <code><b>monospace</b></code>.</li>
+            </ul>
+            <h3>Common font stacks:</h3>
+            <code><b>
+                <p>font-family: "Helvetica Neue", Helvetica, Aerial, sans-serif;</p>
+                <p>font-family: Georgia, 'Times New Roman', serif;</p>
+                <p>font-family: 'Courier New', Courier, monospace;</p>
+            </b></code>
+        </li>
+        <li><code><b>font-size</b></code>
+            <p>Controls the size of the text.</p>
+            <pre class="font-size"><b>.font-size {
+    font-size: 30px;
+}</b></pre>
+            <p>You can use units like <code><b>px</b></code>, <code><b>em</b></code>, <code><b>%</b></code>, <code><b>rem</b></code>.</p>
+        </li>
+        <li><code><b>font-weight</b></code>
+            <p>Defines the boldness of the text.</p>
+            <pre class="font-weight"><b>.font-weight {
+    font-weight: lighter;
+}</b></pre>
+            <p>You can use keywords like <code><b>bold</b></code>, <code><b>normal</b></code>, <code><b>lighter</b></code>, or numerical values like <code><b>100</b></code>, <code><b>400</b></code>, <code><b>700</b></code>, <code><b>900</b></code>.</p>
+        </li>
+        <li><code><b>font-style</b></code>
+            <p>Sets text to normal, italic, or oblique.</p>
+            <pre class="font-style"><b>.font-style {
+    font-style: oblique;
+}</b></pre>
+        </li>
+        <li><code><b>text-align</b></code>
+            <p>Aligns text horizontally.</p>
+            <pre class="text-align"><b>.text-align {
+    text-align: center;
+}</b></pre>
+            <p>Values: <code><b>left</b></code>, <code><b>right</b></code>, <code><b>center</b></code>, <code><b>justify</b></code></p>
+        </li>
+        <li><code><b>line-height</b></code>
+            <p>Controls the space between lines of text.</p>
+            <pre class="line-height"><b>.text-height {
+    text-height: 2;
+}</b></pre>
+        </li>
+        <li><code><b>letter-spcing</b></code>
+            <p>Controls space between characters.</p>
+            <pre class="letter-spacing"><b>.letter-spacing {
+    letter-spacing: 5px;
+}</b></pre>
+        </li>
+        <li><code><b>word-spacing</b></code>
+            <p>Controls space between words.</p>
+            <pre class="word-spacing"><b>.word-spacing {
+    word-spacing: 10px;
+}</b></pre>
+        </li>
+        <li><code><b>text-transform</b></code>
+            <p>Changes the case of text.</p>
+            <pre class="uppercase"><b>.uppercase {
+    text-transform: uppercase;
+}</b></pre>
+            <pre class="lowercase"><b>.lowercase {
+    text-transform: lowercase;
+}</b></pre>
+            <pre class="capitalize"><b>.capitalize {
+    text-transform: capitalize;
+}</b></pre>
+        </li>
+        <li><code><b>text-decoration</b></code>
+            <p>Controls underlining, Overlining, and line-through.</p>
+            <pre class="text-decoration"><b>.text-decoration {
+    text-decoration: line-through;
+}</b></pre>
+        </li>
+    </ol>
+    <h2>Using Google fonts</h2>
+    <p>To use custom fonts, you can load them from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
+    <h3>HTML:</h3>
+    <pre class="google_font"><b>&lt;head&gt;
+    &lt;title&gt;Google Fonts&lt;/title&gt;
+    &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+    &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap" rel="stylesheet"&gt;
+&lt;/head&gt;</b></pre>
+        <h3>CSS:</h3>
+        <pre class="google_font"><b>.google_font {
+    font-family: "Caacupe One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}</b></pre>
+</body>
+</html>
