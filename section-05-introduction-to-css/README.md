@@ -19,9 +19,9 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **29. Box Model in CSS** [📁](./29_box_model_in_css)
 
-- [ ] **30. Units in CSS** [📁](./30_units_in_css)
+- [x] **30. Units in CSS** [📁](./30_units_in_css)
 
-- [ ] **31. Typography in CSS** [📁](./31_typography_in_css)
+- [x] **31. Typography in CSS** [📁](./31_typography_in_css)
 
 - [ ] **32. Backgrounds and Borders** [📁](./32_backgrounds_and_borders)
 
@@ -49,6 +49,9 @@ This folder documents my progress, core concepts, and coding practice exercises 
     *   **Achieved:** Learned every CSS color format (named, HEX, RGB, RGBA, HSL, HSLA) plus `transparent`/`currentColor`, and the box model's four layers (Content, Padding, Border, Margin) including `content-box` vs `border-box` sizing.
     *   **Debugging:** Fixed several typos and a deprecated `type="disc"` attribute in *Lec 28*, replacing it with the correct `list-style-type` CSS property; fixed a small typo in *Lec 29*.
     *   **Applied:** Added my first real color and layout-adjacent CSS to my portfolio's header, nav, and footer using descendant selectors.
+*   **Day 10** 📐 
+    *   **Completed:** *Lec 30 (Units in CSS)* and *Lec 31 (Typography in CSS)*.
+    *   **Achieved:** Learned absolute vs relative CSS units (`px`, `em`, `rem`, `%`, `vw`/`vh`) and `calc()`, plus every core typography property (`font-family`, `font-size`, `font-weight`, `line-height`, `letter-spacing`, `text-transform`, `text-decoration`) and how to load a custom Google Font.
+    *   **Debugging:** Fixed several typos and a class-name mismatch (`rem-5` vs `rem`) in *Lec 30*; fixed a fabricated non-existent CSS property (`text-height`) along with typos in *Lec 31*.
 *   **Day [Counting...]** ⏳ 
-    *   **Next Milestone:** *Lec 30: Units in CSS*
- 
+    *   **Next Milestone:** *Lec 32: Backgrounds and Borders*
