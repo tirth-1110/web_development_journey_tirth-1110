@@ -5,3 +5,93 @@
 .background_image {
     background-image: url('Manga-Portal.png');
 }
+
+.background_repeat {
+    background-repeat: no-repeat;
+    background-image: url('Manga-Portal.png');
+}
+
+.background_size {
+    background-size: cover;
+    background-image: url('Manga-Portal.png');
+}
+
+.background_position {
+    background-position: center;
+    background-size: cover;
+    background-image: url('Manga-Portal.png');
+}
+
+.background_attachment {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('Manga-Portal.png');
+}
+
+.background_shorthand {
+    background: url('Manga-Portal.png') no-repeat center/cover fixed;
+}
+
+.border_width {
+    border-width: 5px;
+}
+
+.border_style_all {
+    border-style: solid;
+}
+
+.border_style_dashed {
+    border-style: dashed;
+}
+
+.border_style_dotted {
+    border-style: dotted;
+}
+
+.border_style_double {
+    border-style: double;
+}
+
+.border_style_groove {
+    border-style: groove;
+}
+
+.border_style_ridge {
+    border-style: ridge;
+}
+
+.border_style_inset {
+    border-style: inset;
+}
+
+.border_style_outset {
+    border-style: outset;
+}
+
+.border_style_none {
+    border-style: none;
+}
+
+.border_color {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red blue green yellow;
+}
+
+.border_shorthand {
+    border: 2px solid red;
+}
+
+.border_individual_sides {
+    border-top: 1px solid red;
+    border-right: 2px dashed blue;
+    border-bottom: none;
+    border-left: 3px dotted green;
+}
+
+.border_radius {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
