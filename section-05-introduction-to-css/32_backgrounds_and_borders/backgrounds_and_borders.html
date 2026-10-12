@@ -45,6 +45,133 @@ p {
     background-size: 100px 200px; /* Width and height */
 }</pre>
         </li>
+        <li><b><strong>background-position</strong></b>
+            <p>Controls the position of the background image within an element.</p>
+            <pre class="background_position">
+p {
+    background-position: center; /* Center the image */
+    background-position: top; /* Align to the top */
+    background-position: bottom; /* Align to the bottom */
+    background-position: left; /* Align to the left */
+    background-position: right; /* Align to the right */
+    background-position: top right; /* Align to the top right */
+    background-position: top left; /* Align to the top left */
+    background-position: bottom right; /* Align to the bottom right */
+    background-position: bottom left; /* Align to the bottom left */
+    background-position: 50px 100px; /* X and Y offsets */
+}</pre>
+        </li>
+        <li><b><strong>background-attachment</strong></b>
+            <p>Determines whether the background image scrolls with the page or stays fixed.</p>
+            <pre class="background_attachment">
+p {
+    background-attachment: scroll; /* Default */
+    background-attachment: fixed; /* Stay fixed */
+}</pre>
+        </li>
+        <li>Shorthand Property:<b><strong>background</strong></b>
+        <p>Combines all background properties into one line.</p>
+            <pre class="background_shorthand">
+p {
+    background: url('Manga-Portal.png') no-repeat center/cover fixed;
+}</pre>
+        </li>
+    </ol>
+    <h2>Border Properties</h2>
+    <ol>
+        <li><b><strong>border-width</strong></b>
+            <p>Sets the width of the border.</p>
+            <pre class="border_width">
+p {
+    border-width: 5px; /* Sets all sides to 5px */
+    border-width: 5px 10px; /* Top/Bottom 5px, Left/Right 10px */
+    border-width: 5px 10px 15px; /* Top 5px, Right/Left 10px, Bottom 15px */
+    border-width: 5px 10px 15px 20px; /* Top 5px, Right 10px, Bottom 15px, Left 20px */
+}</pre>
+        </li>
+        <li><b><strong>border-style</strong></b>
+            <p>Specifies the style of the border.</p>
+            <pre class="border_style_all">
+p {
+    border-style: solid; /* Solid line */
+    border-style: dashed; /* Dashed line */
+    border-style: dotted; /* Dotted line */
+    border-style: double; /* Double line */
+    border-style: groove; /* 3D grooved line */
+    border-style: ridge; /* 3D ridged line */
+    border-style: inset; /* Inset line */
+    border-style: outset; /* Outset line */
+    border-style: none; /* No border */
+}</pre>
+            <pre class="border_style_dashed">
+p {
+    border-style: dashed;
+}</pre>
+            <pre class="border_style_dotted">
+p {
+    border-style: dotted;
+}</pre>
+            <pre class="border_style_double">
+p {
+    border-style: double;
+}</pre>
+            <pre class="border_style_groove">
+p {
+    border-style: groove;
+}</pre>
+            <pre class="border_style_ridge">
+p {
+    border-style: ridge;
+}</pre>
+            <pre class="border_style_inset">
+p {
+    border-style: inset;
+}</pre>
+            <pre class="border_style_outset">
+p {
+    border-style: outset;
+}</pre>
+            <pre class="border_style_none">
+p {
+    border-style: none;
+}</pre>
+        </li>
+        <li><b><strong>border-color</strong></b>
+            <p>Sets the color of the border.</p>
+            <pre class="border_color">
+p {
+    border-color: red; /* Sets all sides to red */
+    border-color: red blue green yellow; /* Top, Right, Bottom, Left */
+}</pre>
+        </li>
+        <li>Shorthand Property:<b><strong>border</strong></b>
+            <p>Combines border-width, border-style, and border-color into one line.</p>
+            <pre class="border_shorthand">
+p {
+    border: 2px solid red; /* Width, Style, Color */
+}</pre>
+        </li>
+        <li>Individual Side Properties
+            <p>You can set borders for each side of an element individually.</p>
+            <pre class="border_individual_sides">
+p {
+    border-top: 1px solid red; /* Top border */
+    border-right: 2px dashed blue; /* Right border */
+    border-bottom: none; /* Bottom border */
+    border-left: 3px dotted green; /* Left border */
+}</pre>
+        </li>
+        <li><b><strong>border-radius</strong></b>
+            <p>Rounds the corners of an element's border.</p>
+            <pre class="border_radius">
+p {
+    border-radius: 10px; /* Rounds all corners */
+    border-radius: 10px 20px; /* Top-left and bottom-right corners */
+    border-radius: 10px 20px 30px; /* Top-left, top-right, bottom-right corners */
+    border-radius: 10px 20px 30px 40px; /* Top-left, top-right, bottom-right, bottom-left corners */
+}</pre>
+            <p>You can also use percentages for border-radius to create circular shapes.</p>
+        </li>
     </ol>
 </body>
 </html>
