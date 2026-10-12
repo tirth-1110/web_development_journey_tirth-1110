@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds and Borders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Backgrounds and Borders</h1>
+    <p>CSS allows you to customize how elements <b>look and feel</b> by adding backgrounds and borders. You can apply colors, images, gradients, and control borders precisely around elements.</p>
+    <h2>Background Properties</h2>
+    <ol>
+        <li><b><strong>background-color</strong></b>
+            <p>Sets a solid color behind an element.</p>
+            <pre class="background_color">
+p {
+    background-color: lightblue;
+}</pre>
+        </li>
+        <li><b><strong>background-image</strong></b>
+            <p>Adds an image as the background of an element.</p>
+            <pre class="background_image">
+p {
+    background-image: url('Manga-Portal.png');
+}</pre>
+            <p>You can use local images or remote URLs for background images.</p>
+        </li>
+        <li><b><strong>background-repeat</strong></b>
+            <p>Controls how a background image is repeated.</p>
+            <pre class="background_repeat">
+p {
+    background-repeat: repeat; /* Default*/
+    background-repeat: no-repeat;
+    background-repeat: repeat-x; /* Repeats horizontally */
+    background-repeat: repeat-y; /* Repeats vertically */
+}</pre>
+        </li>
+        <li><b><strong>background-size</strong></b>
+            <p>Specifies the size of the background image.</p>
+            <pre class="background_size">
+p {
+    background-size: cover; /* Cover the entire element */
+    background-size: contain; /* Scale the image to fit */
+    background-size: 100px 200px; /* Width and height */
+}</pre>
+        </li>
+    </ol>
+</body>
+</html>
