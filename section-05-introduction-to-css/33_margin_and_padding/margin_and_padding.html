@@ -7,13 +7,15 @@
 </head>
 <body>
     <h1>Margins And Paddings</h1>
-    <p><strong><b>Margin</b></strong> and <strong><b>Padding</b></strong> are two of the most commonly used properties in CSS to control <strong><b>spcaing</b></strong> aroung elements. They are part of the CSS <strong><b>Box Model</b></strong> and play a crucial role in layout and visual structure.</p>
+    <p><strong><b>Margin</b></strong> and <strong><b>Padding</b></strong> are two of the most commonly used properties in CSS to control <strong><b>spacing</b></strong> around elements. They are part of the CSS <strong><b>Box Model</b></strong> and play a crucial role in layout and visual structure.</p>
     <h2><strong><b>Padding</b></strong> vs <strong><b>Margin</b></strong></h2>
     <table border="1">
         <thead>
-            <th>Property</th>
-            <th>Affects</th>
-            <th>Where the spaces appears</th>
+            <tr>
+                <th>Property</th>
+                <th>Affects</th>
+                <th>Where the spaces appear</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -30,65 +32,65 @@
     </table>
     <h2><strong><b>Padding</b></strong></h2>
     <p>Apply space inside the border, around the content.</p>
-    <strong><pre class="padding">
+    <pre class="padding"><b>
 .padding {
     padding: 20px;
-}</pre></strong>
-    <p>This adds 20px space inside all four sides of the <strong><b>.padding</b></strong></p>
+}</b></pre>
+    <p>This adds 20px space inside all four sides of the <strong><b>.padding</b></strong>.</p>
     <h3>Individual Sides</h3>
-    <strong><pre class="padding_sides">
+    <pre class="padding_sides"><b>
 .padding_sides {
     padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 20px;
     padding-left: 25px;
-}</pre></strong>
+}</b></pre>
     <h3>Shorthand</h3>
-    <strong><pre class="padding_shorthand">
+    <pre class="padding_shorthand"><b>
 .padding_shorthand {
     padding: 10px 15px 10px 15px; /* top right bottom left */
     padding: 10px 15px; /* top-bottom | right-left */
     padding: 10px; /* all sides */
-}</pre></strong>
+}</b></pre>
     <h2><strong><b>Margin</b></strong></h2>
     <p>Adds space outside the border of the element.</p>
-    <strong><pre class="margin">
+    <pre class="margin"><b>
 .margin {
     margin: 20px;
-}</pre></strong>
-    <p>This adds 20px space outside all four sides of the <strong><b>.margin</b></strong></p>
+}</b></pre>
+    <p>This adds 20px space outside all four sides of the <strong><b>.margin</b></strong>.</p>
     <h3>Individual Sides</h3>
-    <strong><pre class="margin_sides">
+    <pre class="margin_sides"><b>
 .margin_sides {
     margin-top: 10px;
     margin-right: 0;
     margin-bottom: 20px;
     margin-left: auto;
-}</pre></strong>
+}</b></pre>
     <h3>Shorthand</h3>
-    <strong><pre class="margin_shorthand">
+    <body class="margin_shorthand"><b>
 .margin_shorthand {
     margin: 20px 40px 20px 40px; /* top right bottom left */
     margin: 20px 40px; /* top-bottom | right-left */
     margin: 0 auto; /* top-bottom: 0, left-right: auto (used for centering) */
-}</pre></strong>
+}</b></body>pre>
     <h3>Auto Margin (Horizontal Centering)</h3>
     <p>When you set the left and right margins to <strong><b>auto</b></strong>, the browser calculates the margins equally, centering the element horizontally within its container.</p>
-    <strong><pre class="auto_margin">
+    <pre class="auto_margin"><b>
 .auto_margin {
     margin: 0 auto;
-}</pre></strong>
+}</b></pre>
     <p>This centers the container <strong><b>horizontally</b></strong> if a fixed width is set.</p>
     <h3>Margin collapse</h3>
     <p>When two vertical margins meet (e.g., margin-bottom of one element and margin-top of the next), the <strong><b>larger one wins</b></strong>, not their sum.</p>
-    <strong><pre class="margin_collapse_1">
+    <pre class="margin_collapse_1"><b>
 .margin_collapse_1 {
     margin-bottom: 30px;
-}</pre></strong>
-    <strong><pre class="margin_collapse_2">
+}</b></pre>
+    <pre class="margin_collapse_2"><b>
 .margin_collapse_2 {
     margin-top: 20px;
-}</pre></strong>
+}</b></pre>
     <p>The space between the two elements will be <strong><b>30px</b></strong>, not <strong><b>50px</b></strong>.</p>
 </body>
 </html>
