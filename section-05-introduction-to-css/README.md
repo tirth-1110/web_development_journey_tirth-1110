@@ -23,9 +23,9 @@ This folder documents my progress, core concepts, and coding practice exercises 
 
 - [x] **31. Typography in CSS** [📁](./31_typography_in_css)
 
-- [ ] **32. Backgrounds and Borders** [📁](./32_backgrounds_and_borders)
+- [x] **32. Backgrounds and Borders** [📁](./32_backgrounds_and_borders)
 
-- [ ] **33. Margin and Padding** [📁](./33_margin_and_padding)
+- [x] **33. Margin and Padding** [📁](./33_margin_and_padding)
 
 - [ ] **34. The Display Property** [📁](./34_the_display_property)
 
@@ -58,4 +58,4 @@ This folder documents my progress, core concepts, and coding practice exercises 
     *   **Achieved:** Learned the background properties (color, image, repeat, size, position, attachment, shorthand) and border properties (width, style, color, shorthand, per-side, radius), plus padding vs margin, the box model's spacing shorthands, `auto` margins for centering, and margin collapse.
     *   **Debugging:** Fixed typos, invalid table and `<pre>` nesting, class-name and value mismatches in *Lec 33*, and a regression I introduced there while fixing the nesting. The border-radius comment in *Lec 32* is still open.
 *   **Day [Counting...]** ⏳ 
-    *   **Next Milestone:** *Lec 32: Backgrounds and Borders*
+    *   **Next Milestone:** *Lec 34: The Display Property*
