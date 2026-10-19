@@ -1,0 +1,41 @@
+.padding {
+    padding: 20px;
+}
+
+.padding_sides {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+.padding_shorthands {
+    padding: 10px 15px 10px 15px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.margin_sides {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.margin_shorthands {
+    margin: 20px 40px 20px 40px;
+}
+
+.auto_margin {
+    margin: 0 auto;
+}
+
+.margin_collapse_1 {
+    margin-bottom: 30px;
+}
+
+.margin_collapse_2 {
+    margin-top: 20px;
+}
