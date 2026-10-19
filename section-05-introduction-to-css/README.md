@@ -53,5 +53,9 @@ This folder documents my progress, core concepts, and coding practice exercises 
     *   **Completed:** *Lec 30 (Units in CSS)* and *Lec 31 (Typography in CSS)*.
     *   **Achieved:** Learned absolute vs relative CSS units (`px`, `em`, `rem`, `%`, `vw`/`vh`) and `calc()`, plus every core typography property (`font-family`, `font-size`, `font-weight`, `line-height`, `letter-spacing`, `text-transform`, `text-decoration`) and how to load a custom Google Font.
     *   **Debugging:** Fixed several typos and a class-name mismatch (`rem-5` vs `rem`) in *Lec 30*; fixed a fabricated non-existent CSS property (`text-height`) along with typos in *Lec 31*.
+*   **Day 11** 🖼️ 
+    *   **Completed:** *Lec 32 (Backgrounds and Borders)* and *Lec 33 (Margin and Padding)*.
+    *   **Achieved:** Learned the background properties (color, image, repeat, size, position, attachment, shorthand) and border properties (width, style, color, shorthand, per-side, radius), plus padding vs margin, the box model's spacing shorthands, `auto` margins for centering, and margin collapse.
+    *   **Debugging:** Fixed typos, invalid table and `<pre>` nesting, class-name and value mismatches in *Lec 33*, and a regression I introduced there while fixing the nesting. The border-radius comment in *Lec 32* is still open.
 *   **Day [Counting...]** ⏳ 
     *   **Next Milestone:** *Lec 32: Backgrounds and Borders*
