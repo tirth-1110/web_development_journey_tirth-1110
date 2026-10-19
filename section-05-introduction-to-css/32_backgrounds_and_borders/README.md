@@ -31,7 +31,6 @@ How to style an element's background (color, image, repeat, size, position, atta
 -  `border-radius` — rounds corners; one to four values, plus percentages for circular shapes
 
 ## 🚧 Not yet covered here
--  **Factual error in the border-radius example**: the three-value comment reads "Top-left, top-right, bottom-right corners." It should say the first value sets top-left, the second sets both top-right and bottom-left, and the third sets bottom-right
 -  Gradients — mentioned in the intro as a background option, but not demonstrated
 -  `border-image` and `outline`
 -  Background and border effects on the element itself, rather than on the code block that displays the example
